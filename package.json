@@ -1,0 +1,26 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "energy_app_server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "multer": "^1.4.2",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+  "start": "node app.js"
+}
+  
+}
